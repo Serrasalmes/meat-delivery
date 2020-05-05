@@ -24,3 +24,59 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+ion-searchbar[rounded] {
+
+	& input {
+        border-radius: 50px !important;
+	}
+}
+
+
+.full-top{
+	margin-TOP: calc(-1 * var(--offset-top));
+}
+
+ion-content{
+	--background: #FDF9E5;
+}
+
+.buttons-chart{
+	margin-right: -20px !important;
+}
+
+.button-chart{
+  --border-radius: 20px !important;
+  --padding-start: 20px !important;
+  --padding-end: 30px !important;
+}
+
+.segment-rounded{
+    --background: white;
+    border-radius: 10px;
+}
+
+.segment-rounded-button{
+     --color: var(--ion-color-medium-tint);
+     --background-checked: var(--ion-color-primary);
+     --color-checked: var(--ion-color-light);
+     border: none;
+     --indicator-height:0px;
+}
+
+:root {
+    ion-tab-button.tab-selected {
+      ion-icon, ion-label {
+        color: var(--ion-color-light) !important;
+        --ion-color-base: var(--ion-color-light) !important;
+      }
+    }
+  }
+
+.main-search {
+    --background : #C7592A !important;
+    --color : #fff !important;
+    --icon-color : #fff !important;
+    --placeholder-font-weight : bold !important;
+
+}

@@ -1,17 +1,158 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 1
+      Meat Delivery
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <ion-card-content>
+    <ion-row>
+      <ion-col size="10">
+        <ion-card class="search">
+          <ion-searchbar class="main-search" mode="md" rounded placeholder="Semarang, Indonesia"></ion-searchbar>
+        </ion-card>
+      </ion-col>
+      <ion-col size="2">
+        <ion-card class="search pict-card">
+          <ion-img class="pict-avatar" src="assets/images/avatar.svg"></ion-img>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-card-content>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  <ion-card-content class="search-content">
+    <ion-searchbar mode="md" rounded placeholder="Daging apa yang dicari?"></ion-searchbar>
+  </ion-card-content>
+
+  <h4>Berdasarkan Kategori</h4>
+  <ion-card-content>
+    <ion-row class="menu-icon">
+      <ion-col size="3">
+        <ion-card class="search pict-card">
+          <ion-img src="assets/images/meat.svg"></ion-img>
+          <ion-text>
+            Daging
+            <p>Sapi</p>
+          </ion-text>
+        </ion-card>
+      </ion-col>
+      <ion-col size="3">
+        <ion-card class="search pict-card">
+          <ion-img src="assets/images/ayam.svg"></ion-img>
+          <ion-text>
+            Daging
+            <p>Ayam</p>
+          </ion-text>
+        </ion-card>
+      </ion-col>
+      <ion-col size="3">
+        <ion-card class="search pict-card">
+          <ion-img src="assets/images/ikan.svg"></ion-img>
+          <ion-text>
+            Daging
+            <p>Ikan</p>
+          </ion-text>
+        </ion-card>
+      </ion-col>
+      <ion-col size="3">
+        <ion-card class="search pict-card">
+          <ion-img src="assets/images/telur-ayam.svg"></ion-img>
+          <ion-text>
+            Telur
+            <p>Ayam</p>
+          </ion-text>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-card-content>
+
+  <h4>Pesan Lagi</h4>
+  <ion-card-content>
+    <ion-row class="menu-icon">
+      <ion-col size="3">
+        <ion-card class="search pict-card">
+          <ion-img src="assets/images/order.png"></ion-img>
+        </ion-card>
+      </ion-col>
+      <ion-col size="3">
+        <ion-card class="search pict-card">
+          <ion-text>
+            Daging Sapi
+          </ion-text>
+            <p>2 pcs</p>
+            <p class="info-desc">Ordered 2 days ago</p>
+        </ion-card>
+      </ion-col>
+      <ion-col size="3">
+        <ion-card class="search pict-card">
+          <ion-img src="assets/images/order.png"></ion-img>
+        </ion-card>
+      </ion-col>
+      <ion-col size="3">
+        <ion-card class="search pict-card">
+          <ion-text>
+            Daging Sapi
+          </ion-text>
+            <p>2 pcs</p>
+            <p class="info-desc">Ordered 2 days ago</p>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-card-content>
+
+  <h4>Rekomendasi</h4>
+  <ion-item detail="true" lines="none" type="button" color="none">
+    <ion-thumbnail slot="start">
+      <ion-img src="assets/images/meat2.png"></ion-img>
+    </ion-thumbnail>
+    <ion-label>
+      Carne cruda fresh
+      <ion-text>
+        <p>1.5 kg</p>
+        <p>Rp. 150.000</p>
+      </ion-text>
+    </ion-label>
+  </ion-item>
+  <!-- End of ion-item-->
+  <ion-item detail="true" lines="none" type="button" color="none">
+    <ion-thumbnail slot="start">
+      <ion-img src="assets/images/meat2.png"></ion-img>
+    </ion-thumbnail>
+    <ion-label>
+      Carne cruda fresh
+      <ion-text>
+        <p>1.5 kg</p>
+        <p>Rp. 150.000</p>
+      </ion-text>
+    </ion-label>
+  </ion-item>
+  <!-- End of ion-item-->
+  <ion-item detail="true" lines="none" type="button" color="none">
+    <ion-thumbnail slot="start">
+      <ion-img src="assets/images/meat2.png"></ion-img>
+    </ion-thumbnail>
+    <ion-label>
+      Carne cruda fresh
+      <ion-text>
+        <p>1.5 kg</p>
+        <p>Rp. 150.000</p>
+      </ion-text>
+    </ion-label>
+  </ion-item>
+  <!-- End of ion-item-->
+  <ion-item detail="true" lines="none" type="button" color="none">
+    <ion-thumbnail slot="start">
+      <ion-img src="assets/images/meat2.png"></ion-img>
+    </ion-thumbnail>
+    <ion-label>
+      Carne cruda fresh
+      <ion-text>
+        <p>1.5 kg</p>
+        <p>Rp. 150.000</p>
+      </ion-text>
+    </ion-label>
+  </ion-item>
+  <!-- End of ion-item-->
 </ion-content>
